@@ -1,19 +1,19 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "",
+  "description": "Text editor",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+    "start:dev": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+    "start": "cd client && npm run build && cd ../server && node server.js",
+    "server": "cd server && npm run server",
+    "build": "cd client && npm run build",
+    "install": "cd client  && npm install && cd ../server && npm install",
+    "client": " cd client && npm start"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Kelly Walsh",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4"
