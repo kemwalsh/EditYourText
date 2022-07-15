@@ -1,24 +1,35 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![Stargazers][stars-shield]][stars-url]
+[![GitHub Watchers][github-watchers]][github-watchers-url]
 
-## Your Task
+<div align="center">
+# EditYourText </div>
 
-As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://kemwalsh.github.io/EditYourText">
+  </a>
 
-Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+<h3 align="center">Social App</h3>
 
-To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
-
-You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
+  <p align="center">
+    <br />
+    <a href="https://github.com/kemwalsh/EditYourText"><strong>Explore the Docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://warm-coast-88618.herokuapp.com/">View Demo</a>
+    ·
+    <a href="https://github.com/kemwalsh/EditYourText/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/kemwalsh/EditYourText/issues">Request Feature</a>
+  </p>
+</div>
 
 ## User Story
-
-```md
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
-```
-
-## Acceptance Criteria
 
 ```md
 GIVEN a text editor web application
@@ -48,96 +59,67 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
-## Mock-Up
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-The following animation demonstrates the application functionality:
+## Application Features:
 
-![Demonstration of the finished Module 19 Challenge being used in the browser and then installed.](./Assets/00-demo.gif)
+- Allows user to add text, reload the page and still see previous text, and download and install the app
 
-The following image shows the application's `manifest.json` file:
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-![Demonstration of the finished Module 19 Challenge with a manifest file in the browser.](./Assets/01-manifest.png)
+## Application Appearance and Functionality:
 
-The following image shows the application's registered service worker:
+Heroku deployed application displaying functionality:
 
-![Demonstration of the finished Module 19 Challenge with a registered service worker in the browser.](./Assets/02-service-worker.png)
+(https://warm-coast-88618.herokuapp.com/)
 
-The following image shows the application's IndexedDB storage:
+### Built With
 
-![Demonstration of the finished Module 19 Challenge with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
+- [Node.js](https://nodejs.org/en/)
+- [Heroku](https://www.heroku.com/)
+- [Express](https://expressjs.com/)
+- [Webpack](https://webpack.js.org/)
 
-## Grading Requirements
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## Project Links
 
-This Challenge is graded based on the following criteria:
+[Repository](https://github.com/kemwalsh/EditYourText)
 
-### Technical Acceptance Criteria: 40%
+[Live Website](https://warm-coast-88618.herokuapp.com/)
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Credits
 
-  * Uses IndexedDB to create an object store and includes both GET and PUT methods
+List of Contributors:
 
-  * The application works without an internet connection
+1. Kelly Walsh
 
-  * Automatically saves content inside the text editor when the DOM window is unfocused
+## Contact Info
 
-  * Bundled with webpack
+Kelly Walsh - kellywalsh827@gmail.com
+<br>
+[![LinkedIn][linkedin-shield]][linkedin-url-kelly] [![GitHub][github-shield]][github-url-kelly] </br>
 
-  * Create a service worker with workbox that Caches static assets
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-  * The application should use babel in order to use async / await
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-  * Application must have a generated `manifest.json` using the `WebpackPwaManifest` plug-in
+[contributors-shield]: https://img.shields.io/github/contributors/kemwalsh/EditYourText.svg?style=for-the-badge
+[contributors-url]: https://github.com/kemwalsh/EditYourText/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kemwalsh/EditYourText.svg?style=for-the-badge
+[forks-url]: https://github.com/kemwalsh/EditYourText/network/members
+[stars-shield]: https://img.shields.io/github/stars/kemwalsh/EditYourText?style=social
+[stars-url]: https://github.com/kemwalsh/EditYourText/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kemwalsh/EditYourText.svg?style=for-the-badge
+[issues-url]: https://github.com/kemwalsh/EditYourText/issues
+[license-shield]: https://img.shields.io/github/license/kemwalsh/EditYourText?style=for-the-badge
+[license-url]: https://github.com/kemwalsh/EditYourText/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url-kelly]: https://www.linkedin.com/in/kellywalsh001/
+[github-shield]: https://img.shields.io/badge/-Github-blueviolet.svg?style=for-the-badge&logo=Github&colorB=555
+[github-url-kelly]: https://github.com/kemwalsh
+[github-watchers]: https://img.shields.io/github/watchers/kemwalsh/EditYourText?style=social
+[github-watchers-url]: https://github.com/kemwalsh/EditYourText/watchers
 
-  * Can be installed as a Progressive Web Application
-
-### Deployment: 32%
-
-* Application deployed to Heroku at live URL with build scripts
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 # EditYourText
